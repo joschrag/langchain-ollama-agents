@@ -7,7 +7,7 @@ model_name = "dolphin-mixtral"  # name of your ollama model
 stop_tokens = []  # tokens which should force end a message
 num_gpu = 10  # number of layers to offload to gpu
 num_ctx = 16000  # number of tokens as context
-temperature = 1  # temperature parameter 0<= temperature <= 1
+temperature = 1  # temperature parameter 0 <= temperature <= 1
 
 # Initialize Ollama
 ollama = Ollama(
